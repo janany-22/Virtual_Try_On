@@ -16,7 +16,7 @@ mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 
 # Load the dress image
-dress_image = cv2.imread('C:\\Users\\Janan\\OneDrive\\Desktop\\Resources\\Shirts\\2.png', cv2.IMREAD_UNCHANGED)
+dress_image = cv2.imread('content\\Shirts\\2.png', cv2.IMREAD_UNCHANGED)
 
 if dress_image is None:
     print("Error: Could not load the dress image.")
